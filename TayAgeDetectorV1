@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>This is a Taylor Swift's Concert </title>
+
+<p id="message"></p>
+
+<script>
+// Get the age from the user 
+var age = Number(prompt("Please enter your age: "));
+
+// The age conditions 
+if (age < 18) {
+    console.log("Sorry, you are not old enough to enter the venue.");
+    alert("Sorry, you are not old enough to enter the venue.");
+} 
+
+else if(age < 21) {
+    console.log("You can enter, but cannot drink.");
+    alert("You can enter, but cannot drink.");
+}
+
+else if (age === 21) {
+    console.log("Happy 21st birthday, my dear! Congrats! You can finally drink!");
+    alert("Happy 21st birthday, my dear! Congrats! You can finally drink!")
+}
+
+else if (age > 40 ) {
+    console.log("Glad that you are trying to be young again! ");
+    alert("Glad that you are trying to be young again!")
+}
+
+else {
+    console.log("Come on in. You can drink.");
+    alert("Come on in. You can drink.");
+}
+</script>
+
+    <h1>
+        <center>This is a Taylor Swift's Concert.</center>
+    </h1>
+    <center><img src="tay.jpg" alt="Taylor"></center>
+</head>
+<style>
+    body {
+        background-image: url("light.jpg");
+        background-repeat: no-repeat;
+    }
+</style>
+<center>
+    <h1> Age Requirements </h1>
+</center>
+<center>
+    <li> No concertgoers shall be younger than 18. </li>
+</center>
+<center>
+    <li> The legal drinking age is 21 in New York, so no one younger than 21 shall be drinking during the concert. </li>
+</center>
+<center>
+    <li> Anyone who is above the age of 21 can enter and drink at the concert. </li>
+</center>
+</body>
+</html>
